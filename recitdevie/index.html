@@ -1,0 +1,419 @@
+<!doctype html>
+<html class="no-js page-transition-animation" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Récits de vie</title>
+    <link rel="stylesheet" href="../stylesheets/app.css">
+    <link rel="stylesheet" href="../stylesheets/global.css">
+
+    <script src="https://use.typekit.net/meo1jep.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+
+    <!-- <div class="loader-wrapper">
+      <div class="loader-bar"></div>
+    </div> -->
+
+    <!-- CONTACT -->
+    <div class="row fullscreen">
+      <div class="columns fullscreen overlay" id="contact-overlay">
+        <div class="columns h-large-4 h-large-push-8 large-6 large-push-6 medium-12 medium-push-0 contact-wrapper">
+          <a href="#" class="close-me contact-close button"></a>
+
+          <!-- ERROR -->
+          <div class="errors-display">
+
+            <p class="no-name">Veuillez entrer votre nom</p>
+
+            <p class="no-address">Vueillez entrer votre adresse email</p>
+
+            <p class="no-valid-address">Votre adresse email n'est pas valide</p>
+
+            <p class="no-msg">Vueillez entrer votre message</p>
+
+          </div>
+          <!-- END ERROR -->
+
+          <form action="../contact.php" method="post" class="columns large-9 contact-form">
+            <h1 class="baskerville">Contact</h1>
+            <h5>À propos</h5>
+
+            <select name="subject" id="subject">
+              <option value="recit">d'un récit de vie</option>
+              <option value="relecture">d'une relecture</option>
+              <option value="renseignement">d'un renseignement</option>
+            </select>
+
+            <hr class="large-12">
+            <h5>Bonjour,</h5>
+
+            <textarea name="message" placeholder="votre message" id="message" cols="30" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
+
+            <h5>Bien à vous,</h5>
+
+            <input type="text" name="name" id="name" placeholder="votre nom">
+
+            <input type="text" name="email" id="email" placeholder="votre adresse email">
+
+            <div class="flex">
+                <input type="checkbox" id="legal" name="legal">
+                <label for="legal">J’ai lu les <a href="../mentions-legales.html" target="_blank">mentions légales</a> et consens à l’utilisation par Pass’Plume de mes données personnelles</label>
+            </div>
+
+            <input type="submit" name="submit" class="button white radius" id="contact-button" value="Envoyer">
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row container fullscreen">
+
+      <div class="zoom">
+        <a href="#" id="zoomMoins">A</a>
+        <a href="#" id="zoomPlus">A</a>
+        <a href="#" id="reset">normal</a>
+        <a href="#" id="open"><img src="../img/i-zoom-white.svg" alt=""></a>
+      </div>
+
+      <div class="column large-12">
+
+        <header class="large-12 clearfix">
+
+          <div class="header-content small-12">
+            <a href="../index.html" class="page-transition"><img src="../img/logo.png" alt="Logo Pass'plume - Biographe familiale et relectrice professionnelle" class="logo"></a>
+            <h2 class="baskerville text-center">Intégrer le passé au présent, c'est permettre un avenir</h2>
+          </div>
+
+          <nav>
+            <button type="button" class="close-me"></button>
+            <ul class="nav">
+              <li><a href="../index.html" class="page-transition">Accueil</a></li>
+              <li class="is-active">
+                <a href="index.html" class="page-transition">Récits de vie</a>
+                <ul class="submenu">
+                  <li class="is-active"><a href="index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="informations/bienchoisir.html" class="page-transition">Bien choisir son biographe</a></li>
+                  <li><a href="informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../relecture/index.html" class="page-transition">Relecture</a>
+                <ul class="submenu">
+                  <li><a href="../relecture/index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="../relecture/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="contact-transition">Contact</a></li>
+            </ul>
+            <div class="overlay" id="nav-overlay"></div>
+          </nav>
+        </header>
+
+        <main class="row large-12">
+
+          <div class="row large-12 hero valign-middle" id="recit">
+
+            <div class="content h-large-3 large-4 large-pull-3 medium-6 medium-pull-2 columns">
+              <h2 class="small-title">Présentation</h2>
+              <h2 class="baskerville">Récits de vie</h2>
+              <p class="paragraphe">La <span class="bold">biographie familiale</span> pourrait se définir comme la <span class="bold">transmission des souvenirs</span> d’un narrateur à un narrataire chargé de leur donner une structure, une cohérence, une lisibilité.<br/>
+Il en résulte un récit dont la vocation première n’est pas de restituer les faits dans leur vérité historique, mais bien la vision qu’en a gardé le narrateur à travers le filtre de sa <span class="bold">mémoire</span> et les <span class="bold">émotions</span> liées aux événements.</p>
+              <a href="#recit-presentation" class="button hollow radius">En savoir plus</a>
+            </div>
+
+          </div>
+
+
+          <!-- Technical Links -->
+
+          <div class="row large-11 h-large-9 tech-links">
+            <a href="informations/bienchoisir.html" class="content columns medium-6 page-transition">
+              <img src="../img/user-icon.svg" alt="">
+              <p>Comment bien choisir son biographe ?</p>
+              <p class="sub">Quelques conseils pour trouver un biographe familial à la hauteur de vos attentes</p>
+            </a>
+            <a href="informations/prixetmodalites.html"  class="content columns medium-6 page-transition">
+              <img src="../img/infos-icon.svg" alt="">
+              <p>Biographie : comment ? à quel prix ?</p>
+              <p class="sub">Vous décidez du rythme et du budget</p>
+            </a>
+          </div>
+
+
+          <!-- Présentation -->
+
+
+          <section class="row large-11 h-large-9 medium-12 clearfix" id="recit-presentation">
+
+            <div class="medium-12 columns">
+              <h2 class="baskerville marged">Il n'est pas indispensable d'avoir connu des moments forts ou tragiques pour se raconter</h2>
+            </div>
+            <img src="../img/recit-img-annemarie.png" alt="" id="recit-presentation-img">
+            <div class="medium-12 large-4 columns large-push-4">
+              <p class="paragraphe"><span class="bold">Prendre la parole</span> pour dire sa vie, c’est rappeler des pratiques, des techniques, des habitudes, dans lesquelles la jeune génération peut puiser pour réinventer le monde de demain. Une simple évocation du quotidien d’autrefois aux yeux d’un jeune d’aujourd’hui est comme une <span class="bold">porte sur un monde inconnu</span> de lui et dont il est pourtant l’héritier.</p>
+            </div>
+            <div class="medium-12 large-4 columns">
+              <p class="paragraphe">Le lien qui se tisse entre le narrateur et son biographe n’est que le prélude à un autre lien plus puissant et plus fertile encore : <span class="bold">le lien intergénérationnel</span>. Dans un environnement flexible, précaire, sans ancrage, en redéfinition permanente, la famille représente souvent le dernier refuge pour ceux que notre monde désoriente. Cependant, la réalité de la famille devient elle-même très variable ; en réunir les membres devient de plus en plus compliqué, parce que les distances géographiques sont de plus en plus grandes ou parce que la famille nucléaire cède le pas à la famille recomposée.</br></br>
+La transmission orale, directe, qui jusqu’ici s’opérait naturellement d’une génération à l’autre devient <span class="bold">de plus en plus</span> rare. Un jeune peut éprouver de grandes difficultés à prendre conscience de ses racines. Quand le terreau n’est plus nourri, ou qu’il est insuffisamment nourri, une croissance harmonieuse est compromise.</br></br>
+Intégrer le passé au présent, c'est permettre un avenir.  </p>
+            </div>
+
+          </section>
+
+
+          <!-- CAROUSEL -->
+
+          <div class="row medium-10 h-large-10 medium-push-1" id="carousel">
+
+            <!-- TAB Content -->
+
+            <div class="tabs-content" data-tabs-content="example-tabs">
+              <div class="tabs-panel is-active" id="panel1">
+                <blockquote>
+                  <p>Un cadeau pour notre tante de nonante-six ans. Cela a illuminé les dernières semaines de sa vie. Je ne connaissais pas Anne Marie. Cela a été un réel plaisir de faire sa connaissance.</p>
+                  <footer>
+                    <cite>Josée<span>, de Embourg</span></cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="tabs-panel" id="panel2">
+                <blockquote>
+                  <p>Mes deux sœurs et moi-même avons décidé de relater la vie de nos parents. Le fait de brasser des souvenirs donne une sensation extraordinaire de complicité.</p>
+                  <footer>
+                    <cite>Édouard<span>, de Beaufays</span></cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="tabs-panel" id="panel3">
+                <blockquote>
+                  <p>Beaucoup de sensibilité, d’intuition, de compréhension et de souplesse. Arrive facilement à se mettre à la place de l’autre. Créative, et même poète à l’occasion.</p>
+                  <footer>
+                    <cite>Simone<span>, de Schaerbeek</span></cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="tabs-panel" id="panel4">
+                <blockquote>
+                  <p> Avec Anne Marie, les entretiens ont été simples et chaleureux, et une grande complicité s’est vite installée entre nous, effaçant du même coup la notion de rédactrice détachée pour faire place à une presque amie de longue date, avec laquelle la collaboration devient un réel plaisir.</p>
+                  <footer>
+                    <cite>Nino<span>, de Beyne-Heusay</cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="tabs-panel" id="panel5">
+                <blockquote>
+                  <p>Encore merci pour la merveilleuse biographie de maman que vous avez réalisée. Son histoire de vie est magnifiquement racontée… à lire et à relire pour s'en imprégner. Quelle leçon de vie ! J'ai souri par moment, et j'ai aussi pleuré d'émotion. Que d'amour, de simplicité, de bonheur donné et reçu. Ce petit livre d'or est à garder précieusement dans nos cœurs.</p>
+                  <footer>
+                    <cite>Lucille<span>, de Braine-l'Alleud</span></cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="tabs-panel" id="panel6">
+                <blockquote>
+                  <p>Nous avons particulièrement apprécié votre écriture simple, ciselée, bien adaptée au récit. Nous avons ressenti un souci d’écoute objective et une mise en valeur exceptionnelle (et méritée) de notre maman. C’est ce que nous attendions. Un grand merci de la part de toute la postérité. </p>
+                  <footer>
+                    <cite>Jacques<span>, de Woluwe</span></cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- TAB Name -->
+            <ul class="tabs" data-tabs id="example-tabs">
+              <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Josée<span>(Embourg)</span></a></li>
+              <li class="tabs-title"><a href="#panel2">Édouard<span>(Beaufays)</span></a></li>
+              <li class="tabs-title"><a href="#panel3">Simone<span>(Schaerbeek)</span></a></li>
+              <li class="tabs-title"><a href="#panel4">Nino<span>(Beyne-Heusay)</span></a></li>
+              <li class="tabs-title"><a href="#panel5">Lucille<span>(Braine-l'Alleud)</span></a></li>
+              <li class="tabs-title"><a href="#panel6">Jacques<span>(Woluwe)</span></a></li>
+            </ul>
+
+          </div>
+
+          <!-- END Carousel -->
+
+
+          <!-- Rencontre -->
+
+          <section class="row large-12" id="rencontre">
+            <div class="large-11 h-large-9 clearfix">
+              <div class="medium-12 large-4 column">
+                <h2 class="baskerville">La richesse de la </br>rencontre</h2>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe white">On ne devient pas biographe familial pour l’argent, encore moins pour la gloire, mais pour la <span class="bold">richesse de la rencontre</span>. Chaque témoignage, chaque évocation d’une victoire sur telle ou telle difficulté de la vie construit celui ou celle qui les reçoit. La qualité d’un biographe familial se juge moins à sa capacité d’écrire qu’à sa faculté de créer du lien, dans l’écoute et le respect. Il doit se produire un <span class="bold">échange de joie</span> : la personne écoutée comme la personne qui l’écoute éprouveront l’une comme l’autre le sentiment de sortir grandies de l’entretien. </p>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe white">Un écrivain familial de qualité sait se faire <span class="bold">humble devant la parole entendue</span>. Il prend les mots de l’autre, les retranscrit le plus fidèlement possible ou, au contraire, les sublime pour donner corps à une pensée qui n’a pas été complètement exprimée. Dans tous les cas, il se montre fidèle à ce que la personne est. Très souvent, <span class="bold">l’émotion</span> est grande quand la personne écoutée découvre ce que ses mots sont devenus sous la plume du biographe. Et pourtant, elle s’y retrouve, toujours. Il y a autant de styles qu’il y a de récits : c’est à l’écrivain de se fondre dans la personnalité de l’autre.</p>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Technical Links -->
+
+          <!-- <div class="row large-11 h-large-9 tech-links">
+            <a href="informations/bienchoisir.html" class="content columns medium-6 page-transition">
+              <img src="../img/user-icon.svg" alt="">
+              <p>Comment bien choisir son biographe ?</p>
+              <p class="sub">Quelques conseils pour trouver un biographe familiale à la hauteur de vos attentes</p>
+            </a>
+            <a href="informations/prixetmodalites.html"  class="content columns medium-6 page-transition">
+              <img src="../img/infos-icon.svg" alt="">
+              <p>Biographie, comment ? À quelle prix ?</p>
+              <p class="sub">Vous décidez du rythme et du budget</p>
+            </a>
+          </div> -->
+
+
+
+          <!-- CTA -->
+
+          <section class="row large-12 cta" id="cta">
+
+            <a href="#contact-anchor" class="button hollow radius contact-transition" data-subject="recit">Rencontrons-nous</a>
+
+          </section>
+
+
+          <div class="row medium-12">
+            <a href="../index.html" class="column medium-6 bottom-nav page-transition back" id="bottom-nav-recits">
+              <div class="content">
+                <p>Retournez à</p>
+                <h3 class="baskerville">Accueil</h3>
+              </div>
+            </a>
+            <a href="../relecture/index.html" class="column medium-6 bottom-nav page-transition right" id="bottom-nav-relecture">
+              <div class="content">
+                <p>Découvrez</p>
+                <h3 class="baskerville">Relecture</h3>
+              </div>
+            </a>
+          </div>
+
+        </main>
+
+
+        <!-- Footer -->
+
+        <footer>
+          <div class="row large-12">
+            <div class="column medium-12 large-4">
+              <img src="../img/logo-white.png" alt="" />
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="contact">
+                <li id="list-name">Contact :</li>
+                <li id="tel"><a href="tel:+32499223279">+32 499 22 32 79</a></li>
+                <li id="mail"><a href="mailto:info@passplume.be">info@passplume.be</a></li>
+              </ul>
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="nav">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="index.html">Récits de vie</a></li>
+                <li><a href="../relecture/index.html">Relecture</a></li>
+                <li><small id="copy">
+                    <a href="../mentions-legales.html" class="legal">Mentions légales</a><br/>
+                    Copyright2016©Passplume<br/>
+                    Design & Development Alexis Wollseifen
+                  </small></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="social">
+            <li id="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.passplume.be" target="_blank"></a></li>
+            <li id="twitter"><a href="https://twitter.com/home?status=http%3A//www.passplume.be" target="_blank"></a></li>
+          </ul>
+        </footer>
+
+        <!-- End Footer -->
+
+      </div>
+
+    </div>
+
+
+
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/what-input/what-input.js"></script>
+    <script src="../bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.tabs.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.core.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.util.keyboard.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.util.timerAndImageLoader.js"></script>
+
+    <script>
+
+    /* VERIFICATION ERREUR PAR JS */
+    /* CONTACT PAGE FORM */
+
+    $("#contact-button").click(function () {
+      //Le bouton envoyer est actif
+
+      console.log("HelloContact!")
+
+      valid = true;
+
+
+      //Vérifie qu'un nom est entré
+      if ($("#name").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-name").fadeIn();
+        valid = false;
+        console.log("Pas de nom");
+        $(".no-name").addClass("down-error");
+      } else {
+        $(".errors-display p.no-name").css("display", "none");
+      }
+
+      //Vérifie qu'une adresse est entrée
+      if ($("#email").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").fadeIn();
+        valid = false;
+        console.log("Pas d'adresse");
+        $(".no-address").addClass("down-error");
+      }
+      //Vérifie que l'adresse entrée est valide (expression régulière)
+      else if (!$("#email").val().match(/^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/)) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").css("display", "none");
+        $(".errors-display p.no-valid-address").fadeIn();
+        valid = false;
+        console.log("Mauvaise adresse");
+        $(".no-valid-address").addClass("down-error");
+      } else {
+        $(".errors-display p.no-address").css("display", "none");
+        console.log("Bonne adresse");
+      }
+
+      //Vérifie qu'un message est entré
+      if ($("#message").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-msg").fadeIn();
+        valid = false;
+        console.log("Pas de message");
+        $(".no-msg").addClass("down-error");
+      } else {
+        $(".errors-display p.no-msg").css("display", "none");
+      }
+
+
+      return valid;
+    });
+
+    </script>
+  </body>
+</html>

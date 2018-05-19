@@ -1,0 +1,649 @@
+<!doctype html>
+
+<html class="no-js page-transition-animation" lang="fr">
+
+<head>
+
+  <meta charset="utf-8">
+
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+  <title>Pass'plume - Mentions légales</title>
+
+  <!-- <meta name="description" content="Anne Marie Wollseifen - " /> -->
+
+
+
+  <link rel="stylesheet" href="stylesheets/app.css">
+
+  <link rel="stylesheet" href="stylesheets/global.css">
+
+
+
+  <script src="https://use.typekit.net/meo1jep.js"></script>
+
+  <script>try { Typekit.load({ async: true }); } catch (e) { }</script>
+
+</head>
+
+<body>
+
+
+
+  <!-- <div class="loader-wrapper">
+
+      <div class="loader-bar"></div>
+
+    </div> -->
+
+
+
+
+
+  <!-- CONTACT -->
+
+  <div class="row fullscreen">
+
+    <div class="columns fullscreen overlay" id="contact-overlay">
+
+      <div class="columns h-large-4 h-large-push-8 large-6 large-push-6 medium-12 medium-push-0 contact-wrapper">
+
+        <a href="#" class="close-me contact-close button"></a>
+
+
+
+        <!-- ERROR -->
+
+        <div class="errors-display">
+
+
+
+          <p class="no-name">Veuillez entrer votre nom</p>
+
+
+
+          <p class="no-address">Vueillez entrer votre adresse email</p>
+
+
+
+          <p class="no-valid-address">Votre adresse email n'est pas valide</p>
+
+
+
+          <p class="no-msg">Vueillez entrer votre message</p>
+
+
+
+        </div>
+
+        <!-- END ERROR -->
+
+
+
+        <form action="contact.php" method="post" class="columns large-9 contact-form">
+
+          <h1 class="baskerville">Contact</h1>
+
+          <h5>À propos</h5>
+
+
+
+          <select name="subject" id="subject">
+
+            <option value="recit">d'un récit de vie</option>
+
+            <option value="relecture">d'une relecture</option>
+
+            <option value="renseignement">d'un renseignement</option>
+
+          </select>
+
+
+
+          <hr class="large-12">
+
+          <h5>Bonjour,</h5>
+
+
+
+          <textarea name="message" placeholder="votre message" id="message" cols="30" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
+
+
+
+          <h5>Bien à vous,</h5>
+
+
+
+          <input type="text" name="name" id="name" placeholder="votre nom">
+
+
+
+          <input type="text" name="email" id="email" placeholder="votre adresse email">
+
+          <div class="flex">
+            <input type="checkbox" id="legal" name="legal">
+            <label for="legal">J’ai lu les <a href="mentions-legales.html" target="_blank">mentions légales</a> et consens à l’utilisation par Pass’Plume de mes données personnelles</label>
+        </div>
+
+
+
+          <input type="submit" name="submit" class="button white radius" id="contact-button" value="Envoyer">
+
+        </form>
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="row container fullscreen">
+
+
+
+    <div class="zoom">
+
+      <a href="#" id="zoomMoins">A</a>
+
+      <a href="#" id="zoomPlus">A</a>
+
+      <a href="#" id="reset">normal</a>
+
+      <a href="#" id="open">
+        <img src="./img/i-zoom-white.svg" alt="">
+      </a>
+
+    </div>
+
+
+
+    <div class="column large-12">
+
+
+
+      <header class="large-12 clearfix">
+
+
+
+        <div class="header-content small-12">
+
+          <a href="index.html" class="page-transition">
+            <img src="img/logo.png" alt="Logo Pass'plume - Biographe familiale et relectrice professionnelle" class="logo">
+          </a>
+
+          <h2 class="baskerville text-center">Mentions légales</h2>
+
+        </div>
+
+
+
+        <nav>
+
+          <button type="button" class="close-me"></button>
+
+
+
+          <ul class="nav">
+
+            <li>
+              <a href="index.html" class="page-transition">Accueil</a>
+            </li>
+
+            <li>
+
+              <a href="recitdevie/index.html" class="page-transition">Récits de vie</a>
+
+              <ul class="submenu">
+
+                <li class="">
+                  <a href="recitdevie/index.html" class="page-transition">Présentation</a>
+                </li>
+
+                <li>
+                  <a href="recitdevie/informations/bienchoisir.html" class="page-transition">Bien choisir son biographe</a>
+                </li>
+
+                <li>
+                  <a href="recitdevie/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a>
+                </li>
+
+              </ul>
+
+            </li>
+
+            <li>
+
+              <a href="relecture/index.html" class="page-transition">Relecture</a>
+
+              <ul class="submenu">
+
+                <li>
+                  <a href="relecture/index.html" class="page-transition">Présentation</a>
+                </li>
+
+                <li>
+                  <a href="relecture/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a>
+                </li>
+
+              </ul>
+
+            </li>
+
+            <li>
+              <a href="#" class="contact-transition">Contact</a>
+            </li>
+
+          </ul>
+
+
+
+          <div class="overlay" id="nav-overlay"></div>
+
+        </nav>
+
+
+
+      </header>
+
+
+
+      <main class="row large-12">
+
+
+
+
+
+        <div class="row large-12 hero valign-middle" id="recit">
+
+
+
+          <div class="content h-large-4 large-5 large-pull-3 medium-6 medium-pull-2 small-12 small-pull-0 columns">
+
+              <h2 class="baskerville">Ce site web est la propriété de Pass’Plume, activité 07691 inscrite auprès de Productions Associées.</h2>
+              
+              <p class="paragraphe tk-acumin-pro"><span class="bold">Adresse siège social</span> : rue Émile Féron 70 à 1060 Bruxelles<br><span class="bold">TVA </span>: BE 0896.755.397<br><span class="bold">Numéro d’entreprise</span> : 0896.755.397<br><span class="bold">Administrateur de Pass’Plume</span> : Anne Marie Wollseifen<br><span class="bold">Téléphone Pass’Plume</span> : +32 (0)499 22 32 79<br><span class="bold">Courriel</span> : info@passplume.be</p>
+
+            <!-- <a href="#accueil-presentation" class="button hollow radius down white">Qui suis-je ?</a> -->
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <!-- Présentation -->
+
+
+
+
+
+        <section class="row large-11 h-large-9 medium-12 clearfix" id="accueil-presentation">
+
+
+
+          <div class="medium-12 columns">
+
+            <h2 class="baskerville marged">En utilisant ce site web, vous consentez expressément aux conditions générales suivantes :</h2>
+
+          </div>
+
+
+
+          <div class="medium-6 large-4 columns marged">
+
+                <h4>Confidentialité et protection des données personnelles</h4> <br>
+                <p class="paragraphe">
+                L’utilisateur du site autorise le traitement de ses données personnelles par Anne Marie Wollseifen (activité Pass’Plume 07691 au sein de l’asbl Productions Associées), pour les raisons suivantes :</p>
+                <ul>
+                    <li><p class="paragraphe">la gestion de sa clientèle ;</p></li>
+                    <li><p class="paragraphe">les échanges nécessaires pour mener à bien sa mission d’écriture de récits de vie.</p></li>
+                </ul>
+                <p class="paragraphe">Pass’Plume accorde une grande importance à la confidentialité. Les données personnelles ne sont jamais communiquées à des tiers, aucun cookie n’est installé sur le disque dur de l’utilisateur et aucune information telle que son adresse IP n’est recueillie.</p>
+                <p class="paragraphe">Le client est informé qu’il dispose auprès d’Anne Marie Wollseifen et de Productions Associées d’un droit d’accès et de rectification de ses données ainsi que d’un droit d’effacement, sauf si le traitement reste nécessaire à l'exécution du contrat ou au respect d'une obligation légale.</p>
+                <br><br>
+                <h4>Droits de propriété intellectuelle</h4>
+                <br>
+                <p class="paragraphe">Le contenu de ce site, y compris les marques, logos, dessins, données, noms de produits ou d’entreprises, textes, images etc. sont protégés par des droits de propriété intellectuelle appartenant à Pass’Plume ou à des tiers titulaires de ce droit.</p>
+            </p>
+
+          </div>
+
+
+
+          <div class="medium-6 large-4 columns marged">
+
+                <h4>Limite de responsabilité</h4>
+                <br>
+                <p class="paragraphe">En aucun cas, Anne Marie Wollseifen ne pourra être tenue responsable envers quiconque, d’une manière directe, indirecte, spéciale ou autre, des dommages qui pourraient résulter de l’utilisation de ce site en raison notamment des connexions ou des liens hypertextes, incluant, sans limitation, toute perte, interruption du travail, détérioration de programmes ou de données sur le système informatique, le matériel, les logiciels, etc. de l’utilisateur.</p>
+                <br><br>
+                <h4>Droit applicable et tribunaux compétents</h4>
+                <br>
+                <p class="paragraphe">Ce site est régi par le droit belge. En cas de survenance de difficultés relatives à sa portée, son interprétation ou son exécution, les parties s’obligent à rechercher prioritairement une solution transactionnelle non contentieuse. De plus, elles peuvent choisir de commun accord et préalablement à l’introduction de toute action judiciaire, un médiateur agréé qui pourra formuler toute proposition susceptible de résoudre le litige. Ces propositions autant que les éléments que le médiateur fera valoir pour les justifier seront cependant en tout état de cause considérés comme strictement confidentiels par toutes les parties et ne pourront en aucun cas être utilisés dans une éventuelle procédure contentieuse ultérieure, arbitrale ou judiciaire. En cas de conciliation, les parties s’engagent à signer un accord transactionnel qui précisera de manière expresse si la présente convention continuera à sortir ses effets.</p>
+                <p class="paragraphe">Tout différend qui ne pourrait pas être résolu à l’amiable sera soumis de manière exclusive aux cours et tribunaux francophones de Bruxelles, que les parties élisent comme seuls compétents.</p>
+
+          </div>
+
+
+
+
+
+
+
+          <div class="medium-12 columns">
+
+            <!-- <img class="medium-push-2" src="img/accueil-profile.png" alt="" id="accueil-presentation-img"> -->
+
+          </div>
+
+
+
+
+
+        </section>
+
+
+      </main>
+
+
+
+
+
+      <!-- Footer -->
+
+
+
+      <footer>
+
+        <div class="row large-12">
+
+          <div class="column medium-12 large-4">
+
+            <img src="./img/logo-white.png" alt="" />
+
+          </div>
+
+          <div class="column medium-12 large-4">
+
+            <ul class="footer" id="contact">
+
+              <li id="list-name">Contact :</li>
+
+              <li id="tel">
+                <a href="tel:+32499223279">+32 499 22 32 79</a>
+              </li>
+
+              <li id="mail">
+                <a href="mailto:info@passplume.be">info@passplume.be</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="column medium-12 large-4">
+
+            <ul class="footer" id="nav">
+
+              <li>
+                <a href="index.html">Accueil</a>
+              </li>
+
+              <li>
+                <a href="recitdevie/index.html">Récits de vie</a>
+              </li>
+
+              <li>
+                <a href="relecture/index.html">Relecture</a>
+              </li>
+
+              <li>
+                <small id="copy">
+                    <a href="mentions-legales.html" class="legal">Mentions légales</a><br/>
+                    Copyright2016©Passplume<br/>
+                    Design & Development Alexis Wollseifen
+                </small>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+        <ul class="social">
+
+          <li id="facebook">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.passplume.be" target="_blank"></a>
+          </li>
+
+          <li id="twitter">
+            <a href="https://twitter.com/home?status=http%3A//www.passplume.be" target="_blank"></a>
+          </li>
+
+        </ul>
+
+      </footer>
+
+
+
+      <!-- End Footer -->
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+
+  <script src="bower_components/what-input/what-input.js"></script>
+
+  <script src="bower_components/foundation-sites/dist/foundation.js"></script>
+
+  <script src="js/app.js"></script>
+
+  <script src="bower_components/foundation-sites/js/foundation.tabs.js"></script>
+
+  <script src="bower_components/foundation-sites/js/foundation.core.js"></script>
+
+  <script src="bower_components/foundation-sites/js/foundation.util.keyboard.js"></script>
+
+  <script src="bower_components/foundation-sites/js/foundation.util.timerAndImageLoader.js"></script>
+
+
+
+  <script>
+
+
+
+
+
+
+
+    /* VERIFICATION ERREUR PAR JS */
+
+    /* CONTACT PAGE FORM */
+
+
+
+    $("#contact-button").click(function () {
+
+      //Le bouton envoyer est actif
+
+
+
+      console.log("HelloContact!")
+
+
+
+      valid = true;
+
+
+
+
+
+      //Vérifie qu'un nom est entré
+
+      if ($("#name").val().length < 1) {
+
+
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+
+        $(".errors-display p.no-name").fadeIn();
+
+        valid = false;
+
+        console.log("Pas de nom");
+
+        $(".no-name").addClass("down-error");
+
+      } else {
+
+        $(".errors-display p.no-name").css("display", "none");
+
+      }
+
+
+
+      //Vérifie qu'une adresse est entrée
+
+      if ($("#email").val().length < 1) {
+
+
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+
+        $(".errors-display p.no-address").fadeIn();
+
+        valid = false;
+
+        console.log("Pas d'adresse");
+
+        $(".no-address").addClass("down-error");
+
+      }
+
+      //Vérifie que l'adresse entrée est valide (expression régulière)
+
+      else if (!$("#email").val().match(/^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/)) {
+
+
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+
+        $(".errors-display p.no-address").css("display", "none");
+
+        $(".errors-display p.no-valid-address").fadeIn();
+
+        valid = false;
+
+        console.log("Mauvaise adresse");
+
+        $(".no-valid-address").addClass("down-error");
+
+      } else {
+
+        $(".errors-display p.no-address").css("display", "none");
+
+        console.log("Bonne adresse");
+
+      }
+
+
+
+      //Vérifie qu'un message est entré
+
+      if ($("#message").val().length < 1) {
+
+
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+
+        $(".errors-display p.no-msg").fadeIn();
+
+        valid = false;
+
+        console.log("Pas de message");
+
+        $(".no-msg").addClass("down-error");
+
+      } else {
+
+        $(".errors-display p.no-msg").css("display", "none");
+
+      }
+
+
+
+
+
+      return valid;
+
+    });
+
+
+
+
+
+    // Smoot scrollHeight
+
+
+
+    $(function () {
+
+      $('a[href*="#"]:not([href="#"])').click(function () {
+
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+
+          var target = $(this.hash);
+
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+
+          if (target.length) {
+
+            $('html, body').animate({
+
+              scrollTop: target.offset().top
+
+            }, 1000);
+
+            return false;
+
+          }
+
+        }
+
+      });
+
+    });
+
+
+
+  </script>
+
+</body>
+
+</html>

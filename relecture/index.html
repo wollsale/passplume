@@ -1,0 +1,416 @@
+<!doctype html>
+<html class="no-js page-transition-animation" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relecture</title>
+    <link rel="stylesheet" href="../stylesheets/app.css">
+    <link rel="stylesheet" href="../stylesheets/global.css">
+
+    <script src="https://use.typekit.net/meo1jep.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+
+    <!-- <div class="loader-wrapper">
+      <div class="loader-bar"></div>
+    </div> -->
+
+    <!-- CONTACT -->
+    <div class="row fullscreen">
+      <div class="columns fullscreen overlay" id="contact-overlay">
+        <div class="columns h-large-4 h-large-push-8 large-6 large-push-6 medium-12 medium-push-0 contact-wrapper">
+          <a href="#" class="close-me contact-close button"></a>
+
+          <!-- ERROR -->
+          <div class="errors-display">
+
+            <p class="no-name">Veuillez entrer votre nom</p>
+
+            <p class="no-address">Vueillez entrer votre adresse email</p>
+
+            <p class="no-valid-address">Votre adresse email n'est pas valide</p>
+
+            <p class="no-msg">Vueillez entrer votre message</p>
+
+          </div>
+          <!-- END ERROR -->
+
+          <form action="../contact.php" method="post" class="columns large-9 contact-form">
+            <h1 class="baskerville">Contact</h1>
+            <h5>À propos</h5>
+
+            <select name="subject" id="subject">
+              <option value="recit">d'un récit de vie</option>
+              <option value="relecture">d'une relecture</option>
+              <option value="renseignement">d'un renseignement</option>
+            </select>
+
+            <hr class="large-12">
+            <h5>Bonjour,</h5>
+
+            <textarea name="message" placeholder="votre message" id="message" cols="30" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
+
+            <h5>Bien à vous,</h5>
+
+            <input type="text" name="name" id="name" placeholder="votre nom">
+
+            <input type="text" name="email" id="email" placeholder="votre adresse email">
+
+            <div class="flex">
+                <input type="checkbox" id="legal" name="legal">
+                <label for="legal">J’ai lu les <a href="../mentions-legales.html" target="_blank">mentions légales</a> et consens à l’utilisation par Pass’Plume de mes données personnelles</label>
+            </div>
+
+            <input type="submit" name="submit" class="button white radius" id="contact-button" value="Envoyer">
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row container fullscreen">
+
+      <div class="zoom">
+        <a href="#" id="zoomMoins">A</a>
+        <a href="#" id="zoomPlus">A</a>
+        <a href="#" id="reset">normal</a>
+        <a href="#" id="open"><img src="../img/i-zoom-white.svg" alt=""></a>
+      </div>
+
+      <div class="column large-12">
+
+        <header class="large-12 clearfix">
+
+          <div class="header-content small-12">
+            <a href="../index.html" class="page-transition"><img src="../img/logo.png" alt="Logo Pass'plume - Biographe familiale et relectrice professionnelle" class="logo"></a>
+            <h2 class="baskerville text-center">Un regard neuf</h2>
+          </div>
+
+          <nav>
+            <button type="button" class="close-me"></button>
+            <ul class="nav">
+              <li><a href="../index.html" class="page-transition">Accueil</a></li>
+              <li>
+                <a href="../recitdevie/index.html" class="page-transition">Récits de vie</a>
+                <ul class="submenu">
+                  <li><a href="../recitdevie/index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="../recitdevie/informations/bienchoisir.html" class="page-transition">Bien choisir son biographe</a></li>
+                  <li><a href="../recitdevie/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li class="is-active">
+                <a href="index.html" class="page-transition">Relecture</a>
+                <ul class="submenu">
+                  <li class="is-active"><a href="index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="contact-transition">Contact</a></li>
+            </ul>
+            <div class="overlay" id="nav-overlay"></div>
+          </nav>
+
+        </header>
+
+        <main class="row">
+
+
+          <!-- Intro -->
+
+          <div class="row large-12 hero" id="relecture">
+
+            <div class="content h-large-3 large-4 large-pull-3 medium-6 medium-pull-2 columns">
+              <h2 class="small-title">Présentation</h2>
+              <h2 class="baskerville">Relecture</h2>
+              <p class="paragraphe">Le phénomène est connu : à force de se lire et de se relire, l'auteur d'un texte finit par ne plus voir ses propres <span class="bold">erreurs ou imperfections</span>. Fautes d'orthographe ou de frappe, mais aussi lourdeurs de style, imprécisions logiques, redites, copier-coller de dernière minute peuvent altérer gravement l’efficacité de votre communication. </p>
+              <a href="#technical-relecture" class="button hollow radius">En savoir plus</a>
+            </div>
+
+          </div>
+
+          <!-- Technical Links -->
+
+          <div class="row large-5 h-large-4 tech-links" id="technical-relecture">
+            <a href="informations/prixetmodalites.html"  class="content columns medium-12 page-transition">
+              <img src="../img/infos-icon.svg" alt="">
+              <p><br/>Relecture : comment ? à quel prix ?</p>
+            </a>
+          </div>
+
+
+          <!-- Présentation -->
+
+
+          <section class="row large-11 h-large-9 clearfix" id="relecture-presentation">
+
+            <div class="medium-12 columns">
+              <h2 class="baskerville marged">Un regard neuf est indispensable avant l'édition et la diffusion d'un écrit</h2>
+            </div>
+            <div class="medium-6 large-4 columns large-push-4">
+              <p class="paragraphe">Il n'est pas rare de se rendre compte, trop tard, que des erreurs ont été commises… Le correcteur orthographique ne contrôle pas tout et propose souvent des solutions dénuées de sens : <span class="bold">rien ne remplace un cerveau humain et un œil exercé</span>.
+Déjà, les maisons d’édition spécialisées dans le domaine juridique en Belgique francophone me font confiance. Je leur offre la garantie d’une relecture minutieuse et complète.
+</p>
+            </div>
+            <div class="medium-6 large-4 columns">
+              <p class="paragraphe">Indépendants, particuliers, vous pouvez me confier vos écrits. Forte de mon expérience d’enseignante et de correctrice, je m’engage à respecter votre mode d’expression tout en garantissant <span class="bold">la qualité de la langue et du style.</span></p>
+            </div>
+
+          </section>
+
+
+          <hr class="row large-12">
+
+
+          <!-- CAROUSEL -->
+<!--
+
+          <div class="row large-11 h-large-9 clearfix" id="carousel-intro">
+            <p class="paragraphe column medium-6 large-4 large-push-4">Deux auteurs m’ont fait l’honneur d’insérer mon nom dans leurs pages. Voici ce qu’ils ont pensé de mon travail de relecture :</p>
+          </div> -->
+
+          <!-- carousel -->
+
+          <!-- <div class="row medium-10 h-large-10 medium-push-1" id="carousel"> -->
+
+            <!-- TAB Content -->
+
+            <!-- <div class="tabs-content" data-tabs-content="example-tabs">
+              <div class="tabs-panel is-active" id="panel1">
+                <blockquote>
+                  <p>Merci aussi à Anne-Marie Wollseifen, ultime correctrice, qui a effectué un travail d’orfèvre et dépassé sa fonction</p>
+                  <footer>
+                    <cite>»Fabian<span> DELAHAUT<br/>Le crime de l’orateur. Prise de parole en public : 3 secrets et 60 techniques, Bruxelles, De Boeck Professionals, 2012, p. 9.</span></cite>
+                  </footer>
+                </blockquote>
+              </div>
+              <div class="tabs-panel" id="panel2">
+                <blockquote>
+                  <p>Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+                  <footer>
+                    <cite>Édouard<span>, de Baufays</span></cite>
+                  </footer>
+                </blockquote>
+              </div>
+            </div> -->
+
+            <!-- TAB Name -->
+            <!-- <ul class="tabs auteurs" data-tabs id="example-tabs">
+              <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Fabian<span>Delahaut</span></a></li>
+              <li class="tabs-title"><a href="#panel2">Édouard<span>(Baufays)</span></a></li>
+            </ul>
+
+          </div> -->
+
+          <!-- END Carousel -->
+
+
+          <!-- Anonymes -->
+
+          <!-- <section class="row large-12 h-large-9" id="anonymes">
+            <div class="large-11 h-large-9 clearfix">
+              <div class="medium-12 column">
+                <h4 class="">Leurs voix se joignent à celles des nombreux anonymes qui m’adressent leurs remerciements après avoir reçu la mouture revue et corrigée de leur document :</h4>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe testimonial white">« Bonjour, suite à l’excellente qualité de votre travail sur le document précédent, je désirerais  vous en soumettre un autre. »</p>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe testimonial white">« Par cet email, je voudrais vous remercier de la qualité de votre travail ; mon fils et moi-même sommes très satisfaits. »</p>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe testimonial white">« C’est parfait ! Merci pour ces précisions et votre rapidité d’exécution, je vous souhaite également une belle vie ! À bientôt peut-être ! »</p>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe testimonial white">« Je sais que je suis redondant, un très grand merci à vous pour tout ce travail fait dans l'urgence, je vous tiens au courant pour la suite. »</p>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe testimonial white">« J'ai conscience de la quantité de travail que je vous impose et je vous suis très reconnaissante pour la qualité de votre travail. »</p>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe testimonial white">« C’est un très bon résultat. Au plaisir de travailler de nouveau avec vous. »</p>
+              </div>
+            </div>
+          </section> -->
+
+
+          <!-- Technical Links -->
+
+          <!-- <div class="row large-5 h-large-4 tech-links" id="technical-relecture">
+            <a href="informations/prixetmodalites.html"  class="content columns medium-12 page-transition">
+              <img src="../img/infos-icon.svg" alt="">
+              <p>Relecture, comment ? À quelle prix ?</p>
+              <p class="sub">Vous décidez du rythme et du budget</p>
+            </a>
+          </div> -->
+
+
+
+          <!-- CTA -->
+
+          <section class="row large-12 cta" id="cta">
+
+            <a href="#cta" data-subject="relecture" class="button hollow radius contact-transition">Demander une relecture</a>
+
+          </section>
+
+
+          <div class="row medium-12">
+            <a href="../recitdevie/index.html" class="column medium-6 bottom-nav page-transition right" id="bottom-nav-recits">
+              <div class="content">
+                <p>Découvrez</p>
+                <h3 class="baskerville">Récits de vie</h3>
+              </div>
+            </a>
+            <a href="../index.html" class="column medium-6 bottom-nav page-transition back" id="bottom-nav-relecture">
+              <div class="content">
+                <p>Retournez à</p>
+                <h3 class="baskerville">Accueil</h3>
+              </div>
+            </a>
+          </div>
+
+        </main>
+
+        <!-- Footer -->
+
+        <footer>
+          <div class="row large-12">
+            <div class="column medium-12 large-4">
+              <img src="../img/logo-white.png" alt="" />
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="contact">
+                <li id="list-name">Contact :</li>
+                <li id="tel"><a href="tel:+32499223279">+32 499 22 32 79</a></li>
+                <li id="mail"><a href="mailto:info@passplume.be">info@passplume.be</a></li>
+              </ul>
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="nav">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../recitdevie/index.html">Récits de vie</a></li>
+                <li><a href="index.html">Relecture</a></li>
+                <li>
+                    <small id="copy">
+                        <a href="../mentions-legales.html" class="legal">Mentions légales</a><br/>
+                        Copyright2016©Passplume<br/>
+                        Design & Development Alexis Wollseifen
+                      </small>
+                    </li>
+              </ul>
+            </div>
+          </div>
+          <ul class="social">
+            <li id="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.passplume.be" target="_blank"></a></li>
+            <li id="twitter"><a href="https://twitter.com/home?status=http%3A//www.passplume.be" target="_blank"></a></li>
+          </ul>
+        </footer>
+
+        <!-- End Footer -->
+
+      </div>
+
+    </div>
+
+
+
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/what-input/what-input.js"></script>
+    <script src="../bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.tabs.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.core.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.util.keyboard.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.util.timerAndImageLoader.js"></script>
+
+    <script>
+
+    /* VERIFICATION ERREUR PAR JS */
+    /* CONTACT PAGE FORM */
+
+    $("#contact-button").click(function () {
+      //Le bouton envoyer est actif
+
+      console.log("HelloContact!")
+
+      valid = true;
+
+
+      //Vérifie qu'un nom est entré
+      if ($("#name").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-name").fadeIn();
+        valid = false;
+        console.log("Pas de nom");
+        $(".no-name").addClass("down-error");
+      } else {
+        $(".errors-display p.no-name").css("display", "none");
+      }
+
+      //Vérifie qu'une adresse est entrée
+      if ($("#email").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").fadeIn();
+        valid = false;
+        console.log("Pas d'adresse");
+        $(".no-address").addClass("down-error");
+      }
+      //Vérifie que l'adresse entrée est valide (expression régulière)
+      else if (!$("#email").val().match(/^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/)) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").css("display", "none");
+        $(".errors-display p.no-valid-address").fadeIn();
+        valid = false;
+        console.log("Mauvaise adresse");
+        $(".no-valid-address").addClass("down-error");
+      } else {
+        $(".errors-display p.no-address").css("display", "none");
+        console.log("Bonne adresse");
+      }
+
+      //Vérifie qu'un message est entré
+      if ($("#message").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-msg").fadeIn();
+        valid = false;
+        console.log("Pas de message");
+        $(".no-msg").addClass("down-error");
+      } else {
+        $(".errors-display p.no-msg").css("display", "none");
+      }
+
+
+      return valid;
+    });
+
+
+    // Smoot scrollHeight
+
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+
+    </script>
+
+
+  </body>
+</html>

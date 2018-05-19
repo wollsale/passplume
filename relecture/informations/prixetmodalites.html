@@ -1,0 +1,333 @@
+<!doctype html>
+<html class="no-js page-transition-animation" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prix et modalités d'une relecture</title>
+    <link rel="stylesheet" href="../../stylesheets/app.css">
+    <link rel="stylesheet" href="../../stylesheets/global.css">
+
+    <script src="https://use.typekit.net/meo1jep.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+
+    <!-- <div class="loader-wrapper">
+      <div class="loader-bar"></div>
+    </div> -->
+
+    <!-- CONTACT -->
+    <div class="row fullscreen">
+      <div class="columns fullscreen overlay" id="contact-overlay">
+        <div class="columns h-large-4 h-large-push-8 large-6 large-push-6 medium-12 medium-push-0 contact-wrapper">
+          <a href="#" class="close-me contact-close button"></a>
+
+          <!-- ERROR -->
+          <div class="errors-display">
+
+            <p class="no-name">Veuillez entrer votre nom</p>
+
+            <p class="no-address">Vueillez entrer votre adresse email</p>
+
+            <p class="no-valid-address">Votre adresse email n'est pas valide</p>
+
+            <p class="no-msg">Vueillez entrer votre message</p>
+
+          </div>
+          <!-- END ERROR -->
+
+          <form action="../../contact.php" method="post" class="columns large-9 contact-form">
+            <h1 class="baskerville">Contact</h1>
+            <h5>À propos</h5>
+
+            <select name="subject" id="subject">
+              <option value="recit">d'un récit de vie</option>
+              <option value="relecture">d'une relecture</option>
+              <option value="renseignement">d'un renseignement</option>
+            </select>
+
+            <hr class="large-12">
+            <h5>Bonjour,</h5>
+
+            <textarea name="message" placeholder="votre message" id="message" cols="30" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
+
+            <h5>Bien à vous,</h5>
+
+            <input type="text" name="name" id="name" placeholder="votre nom">
+
+            <input type="text" name="email" id="email" placeholder="votre adresse email">
+
+            <div class="flex">
+                <input type="checkbox" id="legal" name="legal">
+                <label for="legal">J’ai lu les <a href="../../mentions-legales.html" target="_blank">mentions légales</a> et consens à l’utilisation par Pass’Plume de mes données personnelles</label>
+            </div>
+
+            <input type="submit" name="submit" class="button white radius" id="contact-button" value="Envoyer">
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row container fullscreen">
+
+      <div class="zoom">
+        <a href="#" id="zoomMoins">A</a>
+        <a href="#" id="zoomPlus">A</a>
+        <a href="#" id="reset">normal</a>
+        <a href="#" id="open"><img src="../../img/i-zoom-white.svg" alt=""></a>
+      </div>
+
+      <div class="column large-12">
+
+        <header class="large-12 clearfix" id="prixetmodalite-header">
+
+          <div class="large-12 path">
+            <a href="../index.html" class="inline-link left white">Relecture</a>
+          </div>
+
+          <div class="header-content small-12">
+            <a href="../../index.html" class="page-transition"><img src="../../img/logo-white.png" alt="Logo Pass'plume - Biographe familiale et relectrice professionnelle" class="logo"></a>
+            <h2 class="baskerville text-center">Prix et modalités d'une relecture</h2>
+          </div>
+
+          <nav class="informations-nav">
+            <button type="button" class="close-me"></button>
+            <ul class="nav">
+              <li><a href="../../index.html" class="page-transition">Accueil</a></li>
+              <li>
+                <a href="../../recitdevie/index.html" class="page-transition">Récits de vie</a>
+                <ul class="submenu">
+                  <li><a href="../../recitdevie/index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="../../recitdevie/informations/bienchoisir.html" class="page-transition">Bien choisir son biographe</a></li>
+                  <li><a href="../../recitdevie/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li class="is-active">
+                <a href="../../relecture/index.html" class="page-transition">Relecture</a>
+                <ul class="submenu">
+                  <li><a href="../../relecture/index.html" class="page-transition">Présentation</a></li>
+                  <li class="is-active"><a href="../../relecture/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="contact-transition">Contact</a></li>
+            </ul>
+            <div class="overlay" id="nav-overlay"></div>
+          </nav>
+
+        </header>
+
+        <main class="row">
+
+          <!-- Intro -->
+
+          <div class="row large-6 technical-presentation">
+
+            <div class="content columns large-12 medium-12">
+              <p class="paragraphe">Que coûte une relecture ? Comment se déroulent les échanges des différentes versions du texte ?</p>
+              <div class="large-12 column text-center">
+                <a href="#relecture-prixetmodalite-presentation" class="button hollow radius dark down">En savoir plus</a>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- Présentation -->
+
+
+          <section class="row large-12" id="relecture-prixetmodalite-presentation">
+            <div class="large-11 h-large-9 clearfix">
+              <div class="column large-12">
+                <h2 class="small-title">Budget</h2>
+              </div>
+              <div class="medium-12 large-4 column">
+                <h4 class="">Des prix adaptés à votre situation</h4>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe"><span class="bold">Un devis personnalisé et gratuit</span> est systématiquement établi. Le prix dépend en effet de facteurs aussi nombreux et variés que l’identité du commanditaire (prix spéciaux pour les étudiants), la qualité du texte de départ, le niveau de correction souhaité, le délai accordé. </p>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe">Les services proposés vont de la <span class="bold">correction simple</span> (orthographe, grammaire, typographie, les tournures lourdes ou incorrectes étant simplement surlignées, sans explication ni reformulation) à la <span class="bold">correction approfondie</span> (reformulation des phrases incorrectes, suggestions de réécriture pour augmenter la clarté du propos et gommer les maladresses du style).</p>
+              </div>
+            </div>
+
+            <hr class="row">
+
+          </section>
+
+          <section class="row large-12" id="relecture-details">
+            <div class="row large-3 large-pull-3">
+              <div class="column large-12">
+                <h2 class="small-title">Déroulement d'une relecture</h2>
+              </div>
+              <div class="column large-12">
+                <!-- <p class="paragraphe">Voici les différentes étapes par lesquelles passe un projet de relecture :</p> -->
+              </div>
+            </div>
+            <div class="row medium-12 large-6 large-push-3 relecture-wrapper">
+              <ol class="rdv-list column medium-12" id="relecture-rdv-list">
+                <li class="rdv-item column medium-12"><p>Le document à corriger doit être envoyé en format DOC à l’adresse <span class="bold">info@passplume.be ;</span></p></li>
+                <li class="rdv-item column medium-12"><p>Le temps de relecture pour l'ensemble du document est estimé après la correction gratuite de deux ou trois pages que je choisis au hasard, ce qui permet l’<span class="bold">élaboration d’un tarif</span> sur mesure ;</p></li>
+                <li class="rdv-item column medium-12"><p>La correction test ainsi que le tarif établi sur cette base sont envoyés dans les délais les plus brefs, selon le degré d'urgence. Le destinataire peut ainsi juger de la qualité de mon travail et mettre cette dernière en lien avec les prix. C'est l'outil de révision Word qui est utilisé : les codes couleur signalent les modifications apportées au texte et les bulles dans les marges en explicitent la raison ;</p></li>
+                <li class="rdv-item column medium-12"><p>La correction commence dès réception sur mon compte bancaire de la somme correspondant au devis ;</p></li>
+                <li class="rdv-item column medium-12"><p>Une fois la relecture achevée, le  document est réexpédié, toujours par messagerie électronique, en deux versions (corrections visibles et corrections invisibles) et deux formats (DOC et PDF).</p></li>
+              </ol>
+            </div>
+          </section>
+
+
+
+          <div class="row medium-12">
+            <a href="../../recitdevie/index.html" class="column medium-6 bottom-nav right" id="bottom-nav-recits">
+              <div class="content">
+                <p>Découvrez</p>
+                <h3 class="baskerville">Récits de vie</h3>
+              </div>
+            </a>
+            <a href="../../index.html" class="column medium-6 bottom-nav back" id="bottom-nav-relecture">
+              <div class="content">
+                <p>Retournez à</p>
+                <h3 class="baskerville">Accueil</h3>
+              </div>
+            </a>
+          </div>
+
+        </main>
+
+
+        <footer>
+          <div class="row large-12">
+            <div class="column medium-12 large-4">
+              <img src="../../img/logo-white.png" alt="" />
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="contact">
+                <li id="list-name">Contact :</li>
+                <li id="tel"><a href="tel:+32499223279">+32 499 22 32 79</a></li>
+                <li id="mail"><a href="mailto:info@passplume.be">info@passplume.be</a></li>
+              </ul>
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="nav">
+                <li><a href="../../index.html">Accueil</a></li>
+                <li><a href="../../recitdevie/index.html">Récits de vie</a></li>
+                <li><a href="../../relecture/index.html">Relecture</a></li>
+                <li><small id="copy">
+                    <a href="../../mentions-legales.html" class="legal">Mentions légales</a><br/>
+                    Copyright2016©Passplume<br/>
+                    Design & Development Alexis Wollseifen
+                  </small></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="social">
+            <li id="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.passplume.be" target="_blank"></a></li>
+            <li id="twitter"><a href="https://twitter.com/home?status=http%3A//www.passplume.be" target="_blank"></a></li>
+          </ul>
+        </footer>
+
+      </div>
+
+    </div>
+
+
+
+
+    <script src="../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../bower_components/what-input/what-input.js"></script>
+    <script src="../../bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="../../js/app.js"></script>
+    <script src="../../bower_components/foundation-sites/js/foundation.tabs.js"></script>
+    <script src="../../bower_components/foundation-sites/js/foundation.core.js"></script>
+    <script src="../../bower_components/foundation-sites/js/foundation.util.keyboard.js"></script>
+    <script src="../../bower_components/foundation-sites/js/foundation.util.timerAndImageLoader.js"></script>
+
+
+    <script>
+
+    /* VERIFICATION ERREUR PAR JS */
+    /* CONTACT PAGE FORM */
+
+    $("#contact-button").click(function () {
+      //Le bouton envoyer est actif
+
+      console.log("HelloContact!")
+
+      valid = true;
+
+
+      //Vérifie qu'un nom est entré
+      if ($("#name").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-name").fadeIn();
+        valid = false;
+        console.log("Pas de nom");
+        $(".no-name").addClass("down-error");
+      } else {
+        $(".errors-display p.no-name").css("display", "none");
+      }
+
+      //Vérifie qu'une adresse est entrée
+      if ($("#email").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").fadeIn();
+        valid = false;
+        console.log("Pas d'adresse");
+        $(".no-address").addClass("down-error");
+      }
+      //Vérifie que l'adresse entrée est valide (expression régulière)
+      else if (!$("#email").val().match(/^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/)) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").css("display", "none");
+        $(".errors-display p.no-valid-address").fadeIn();
+        valid = false;
+        console.log("Mauvaise adresse");
+        $(".no-valid-address").addClass("down-error");
+      } else {
+        $(".errors-display p.no-address").css("display", "none");
+        console.log("Bonne adresse");
+      }
+
+      //Vérifie qu'un message est entré
+      if ($("#message").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-msg").fadeIn();
+        valid = false;
+        console.log("Pas de message");
+        $(".no-msg").addClass("down-error");
+      } else {
+        $(".errors-display p.no-msg").css("display", "none");
+      }
+
+
+      return valid;
+    });
+
+
+    // Smoot scrollHeight
+
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+
+    </script>
+  </body>
+</html>

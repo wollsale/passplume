@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="10px" height="11px" viewBox="0 0 10 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Responsive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-3" sketch:type="MSArtboardGroup" transform="translate(-317.000000, -805.000000)" fill="#878787" opacity="0.49271222">
+            <g id="button" sketch:type="MSLayerGroup" transform="translate(130.000000, 792.000000)">
+                <path d="M197,17.875 L189.375,17.875 L192.875,14.375 L192,13.5 L187,18.5 L192,23.5 L192.875,22.625 L189.375,19.125 L197,19.125 L197,17.875 L197,17.875 Z" id="Shape" sketch:type="MSShapeGroup" transform="translate(192.000000, 18.500000) rotate(-180.000000) translate(-192.000000, -18.500000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

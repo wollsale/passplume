@@ -1,0 +1,320 @@
+<!doctype html>
+<html class="no-js page-transition-animation" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prix et modalités</title>
+    <link rel="stylesheet" href="../../stylesheets/app.css">
+    <link rel="stylesheet" href="../../stylesheets/global.css">
+
+    <script src="https://use.typekit.net/meo1jep.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+
+    <!-- <div class="loader-wrapper">
+      <div class="loader-bar"></div>
+    </div> -->
+
+    <!-- CONTACT -->
+    <div class="row fullscreen">
+      <div class="columns fullscreen overlay" id="contact-overlay">
+        <div class="columns h-large-4 h-large-push-8 large-6 large-push-6 medium-12 medium-push-0 contact-wrapper">
+          <a href="#" class="close-me contact-close button"></a>
+
+          <!-- ERROR -->
+          <div class="errors-display">
+
+            <p class="no-name">Veuillez entrer votre nom</p>
+
+            <p class="no-address">Vueillez entrer votre adresse email</p>
+
+            <p class="no-valid-address">Votre adresse email n'est pas valide</p>
+
+            <p class="no-msg">Vueillez entrer votre message</p>
+
+          </div>
+          <!-- END ERROR -->
+
+          <form action="../../contact.php" method="post" class="columns large-9 contact-form">
+            <h1 class="baskerville">Contact</h1>
+            <h5>À propos</h5>
+
+            <select name="subject" id="subject">
+              <option value="recit">d'un récit de vie</option>
+              <option value="relecture">d'une relecture</option>
+              <option value="renseignement">d'un renseignement</option>
+            </select>
+
+            <hr class="large-12">
+            <h5>Bonjour,</h5>
+
+            <textarea name="message" placeholder="votre message" id="message" cols="30" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
+
+            <h5>Bien à vous,</h5>
+
+            <input type="text" name="name" id="name" placeholder="votre nom">
+
+            <input type="text" name="email" id="email" placeholder="votre adresse email">
+
+            <div class="flex">
+                <input type="checkbox" id="legal" name="legal">
+                <label for="legal">J’ai lu les <a href="../../mentions-legales.html" target="_blank">mentions légales</a> et consens à l’utilisation par Pass’Plume de mes données personnelles</label>
+            </div>
+
+            <input type="submit" name="submit" class="button white radius" id="contact-button" value="Envoyer">
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row container fullscreen">
+
+      <div class="zoom">
+        <a href="#" id="zoomMoins">A</a>
+        <a href="#" id="zoomPlus">A</a>
+        <a href="#" id="reset">normal</a>
+        <a href="#" id="open"><img src="../../img/i-zoom-white.svg" alt=""></a>
+      </div>
+
+      <div class="column large-12">
+
+        <header class="large-12 clearfix" id="prixetmodalite-header">
+
+          <div class="large-12 path">
+            <a href="../index.html" class="inline-link left white page-transition">Récits de vie</a>
+          </div>
+
+          <div class="header-content small-12">
+            <a href="../../index.html" class="page-transition"><img src="../../img/logo-white.png" alt="Logo Pass'plume - Biographe familial et relectrice professionnelle" class="logo"></a>
+            <h2 class="baskerville text-center">Bien choisir son biographe</h2>
+          </div>
+
+          <nav class="informations-nav">
+            <button type="button" class="close-me"></button>
+            <ul class="nav">
+              <li><a href="../../index.html" class="page-transition">Accueil</a></li>
+              <li class="is-active">
+                <a href="../index.html" class="page-transition">Récits de vie</a>
+                <ul class="submenu">
+                  <li><a href="../index.html" class="page-transition">Présentation</a></li>
+                  <li class="is-active"><a href="bienchoisir.html" class="page-transition">Bien choisir son biographe</a></li>
+                  <li><a href="prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../../relecture/index.html" class="page-transition">Relecture</a>
+                <ul class="submenu">
+                  <li><a href="../../relecture/index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="../../relecture/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="contact-transition">Contact</a></li>
+            </ul>
+            <div class="overlay" id="nav-overlay"></div>
+          </nav>
+
+        </header>
+
+        <main class="row">
+
+          <!-- Intro -->
+
+          <div class="row h-large-6 large-8 technical-presentation">
+
+            <div class="content columns large-12 medium-12">
+              <p class="paragraphe">L’article de <span class="bold">Plus Magazine</span> au sujet de Pass’Plume le confirme, en matière de biographie familiale, « un minimum de prudence s’impose. Mieux vaut opter pour un biographe qui a des références et une formation minimale, qui associe clairement le narrateur à la conception du projet, qui laisse libre à chacun de mettre fin à la collaboration s’il le souhaite, transmet son travail au fur et à mesure de son développement et qui fait payer à la séance ».</p>
+              <small class="bienchoisir" id="reference">Nicolas EVRARD, "Profession : biographe familial", <span class="italic">Plus Magazine.be</span>, 21 janvier 2015</small>
+              <div class="large-12 column">
+                <div class="large-4 large-push-2 column text-center">
+                  <a href="#biographe-details" class="button hollow radius dark down">En savoir plus</a>
+                </div>
+                <div class="large-4 large-pull-2 column text-center article-wrapper">
+                  <a href="http://plusmagazine.levif.be/societe/profession-biographe-familiale/article-normal-464137.html" target="_blank" class="inline-link dark right article">Lire l'article</a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+          <section class="row large-12" id="biographe-details">
+            <div class="row medium-6 large-3 large-pull-3">
+              <div class="column large-12">
+                <h2 class="small-title">Déroulement</h2>
+              </div>
+              <div class="column large-12">
+                <p class="paragraphe">Comment faire pour vérifier si la personne à qui vous souhaitez confier votre vie sera à même de mener à bien votre projet ?</br>Voici quelques conseils qui, je l’espère, vous permettront de trouver un biographe à la hauteur de vos attentes.</p>
+              </div>
+            </div>
+            <div class="row medium-9 biographe-wrapper">
+              <ol class="rdv-list column medium-12">
+                <li class="rdv-item column medium-12"><p>Renseignez-vous auprès d’elle sur sa <span class="bold">formation</span>, son passé professionnel, sa production en tant qu’écrivain ; </p></li>
+                <li class="rdv-item column medium-12"><p>Recevez-la, écoutez-la, voyez si un courant de <span class="bold">sympathie</span> peut naître entre elle et vous. Le biographe familial se distingue de l’écrivain par la qualité du <span class="bold">lien de confiance</span> qu’il arrive à susciter ;</p></li>
+                <li class="rdv-item column medium-12"><p>Sentez-vous en elle une <span class="bold">passion</span> ? Sans cela, la production du texte ne serait qu’une transcription fade, sans âme ;</p></li>
+                <li class="rdv-item column medium-12"><p><span class="bold">Examinez attentivement</span> le premier texte rédigé à partir de vos souvenirs et voyez s’il vous correspond : le biographe doit gommer autant que possible son style pour mettre en valeur votre parole, votre personnalité. Vos proches doivent <span class="bold">pouvoir vous reconnaître</span> ;</p></li>
+                <li class="rdv-item column medium-12"><p>Assurez-vous que les modalités prévoient des <span class="bold">séances de correction</span> : le biographe doit accepter en toute humilité de modifier son texte en fonction de vos remarques ;</p></li>
+                <li class="rdv-item column medium-12"><p>Vérifiez si la personne qui doit travailler pour vous a conscience de ses limites. Certains témoignages sont difficiles à entendre : saura-t-elle les recevoir, les mettre en mots, avec tact et sensibilité, sans se convertir en « psy » ?</p></li>
+                <li class="rdv-item column medium-12"><p>La personne est-elle <span class="bold">pleinement engagée</span> dans son activité de biographe au point de s’être mise en <span class="bold">règle</span> vis-à-vis de l’administration fiscale ? </p></li>
+                <li class="rdv-item column medium-12"><p><span class="bold">Un contrat en bonne et due forme</span> vous a-t-il été soumis ? Évoque-t-il les obligations légales en matière de discrétion et de <span class="bold">droits d’auteur</span> ?</p></li>
+                <li class="rdv-item column medium-12"><p>Préférez <span class="bold">le paiement</span> à la séance plutôt qu’au forfait : il est difficile de connaître dès le départ le nombre de rencontres nécessaires et, par ailleurs, si le résultat ne devait pas vous plaire, vous devez rester libre de donner un coup d’arrêt au projet ;</p></li>
+                <li class="rdv-item column medium-12"><p>Tant mieux si la personne n'est pas disponible dans l'immédiat : c'est la preuve que ses compétences sont reconnues ailleurs.</p></li>
+              </ol>
+            </div>
+          </section>
+
+
+
+          <div class="row medium-12">
+            <a href="../../index.html" class="column medium-6 bottom-nav back" id="bottom-nav-recits">
+              <div class="content">
+                <p>Retrournez à</p>
+                <h3 class="baskerville">Accueil</h3>
+              </div>
+            </a>
+            <a href="../../relecture/index.html" class="column medium-6 bottom-nav right" id="bottom-nav-relecture">
+              <div class="content">
+                <p>Découvrez</p>
+                <h3 class="baskerville">Relecture</h3>
+              </div>
+            </a>
+          </div>
+
+        </main>
+
+        <footer>
+          <div class="row large-12">
+            <div class="column medium-12 large-4">
+              <img src="../../img/logo-white.png" alt="" />
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="contact">
+                <li id="list-name">Contact :</li>
+                <li id="tel"><a href="tel:+32499223279">+32 499 22 32 79</a></li>
+                <li id="mail"><a href="mailto:info@passplume.be">info@passplume.be</a></li>
+              </ul>
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="nav">
+                <li><a href="../../index.html">Accueil</a></li>
+                <li><a href="../../recitdevie/index.html">Récits de vie</a></li>
+                <li><a href="../../relecture/index.html">Relecture</a></li>
+                <li><small id="copy">
+                    <a href="../../mentions-legales.html" class="legal">Mentions légales</a><br/>
+                    Copyright2016©Passplume<br/>
+                    Design & Development Alexis Wollseifen
+                  </small></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="social">
+            <li id="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.passplume.be" target="_blank"></a></li>
+            <li id="twitter"><a href="https://twitter.com/home?status=http%3A//www.passplume.be" target="_blank"></a></li>
+          </ul>
+        </footer>
+
+      </div>
+
+    </div>
+
+
+
+
+    <script src="../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../bower_components/what-input/what-input.js"></script>
+    <script src="../../bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="../../js/app.js"></script>
+    <script src="../../bower_components/foundation-sites/js/foundation.tabs.js"></script>
+    <script src="../../bower_components/foundation-sites/js/foundation.core.js"></script>
+    <script src="../../bower_components/foundation-sites/js/foundation.util.keyboard.js"></script>
+    <script src="../../bower_components/foundation-sites/js/foundation.util.timerAndImageLoader.js"></script>
+
+    <script>
+
+    /* VERIFICATION ERREUR PAR JS */
+    /* CONTACT PAGE FORM */
+
+    $("#contact-button").click(function () {
+      //Le bouton envoyer est actif
+
+      console.log("HelloContact!")
+
+      valid = true;
+
+
+      //Vérifie qu'un nom est entré
+      if ($("#name").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-name").fadeIn();
+        valid = false;
+        console.log("Pas de nom");
+        $(".no-name").addClass("down-error");
+      } else {
+        $(".errors-display p.no-name").css("display", "none");
+      }
+
+      //Vérifie qu'une adresse est entrée
+      if ($("#email").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").fadeIn();
+        valid = false;
+        console.log("Pas d'adresse");
+        $(".no-address").addClass("down-error");
+      }
+      //Vérifie que l'adresse entrée est valide (expression régulière)
+      else if (!$("#email").val().match(/^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/)) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").css("display", "none");
+        $(".errors-display p.no-valid-address").fadeIn();
+        valid = false;
+        console.log("Mauvaise adresse");
+        $(".no-valid-address").addClass("down-error");
+      } else {
+        $(".errors-display p.no-address").css("display", "none");
+        console.log("Bonne adresse");
+      }
+
+      //Vérifie qu'un message est entré
+      if ($("#message").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-msg").fadeIn();
+        valid = false;
+        console.log("Pas de message");
+        $(".no-msg").addClass("down-error");
+      } else {
+        $(".errors-display p.no-msg").css("display", "none");
+      }
+
+
+      return valid;
+    });
+
+
+    // Smoot scrollHeight
+
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+
+    </script>
+  </body>
+</html>

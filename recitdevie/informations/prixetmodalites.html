@@ -1,0 +1,410 @@
+<!doctype html>
+<html class="no-js page-transition-animation" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prix et modalités</title>
+    <link rel="stylesheet" href="../../stylesheets/app.css">
+    <link rel="stylesheet" href="../../stylesheets/global.css">
+
+    <script src="https://use.typekit.net/meo1jep.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+
+    <!-- <div class="loader-wrapper">
+      <div class="loader-bar"></div>
+    </div> -->
+
+    <!-- CONTACT -->
+    <div class="row fullscreen">
+      <div class="columns fullscreen overlay" id="contact-overlay">
+        <div class="columns h-large-4 h-large-push-8 large-6 large-push-6 medium-12 medium-push-0 contact-wrapper">
+          <a href="#" class="close-me contact-close button"></a>
+
+          <!-- ERROR -->
+          <div class="errors-display">
+
+            <p class="no-name">Veuillez entrer votre nom</p>
+
+            <p class="no-address">Vueillez entrer votre adresse email</p>
+
+            <p class="no-valid-address">Votre adresse email n'est pas valide</p>
+
+            <p class="no-msg">Vueillez entrer votre message</p>
+
+          </div>
+          <!-- END ERROR -->
+
+          <form action="../../contact.php" method="post" class="columns large-9 contact-form">
+            <h1 class="baskerville">Contact</h1>
+            <h5>À propos</h5>
+
+            <select name="subject" id="subject">
+              <option value="recit">d'un récit de vie</option>
+              <option value="relecture">d'une relecture</option>
+              <option value="renseignement">d'un renseignement</option>
+            </select>
+
+            <hr class="large-12">
+            <h5>Bonjour,</h5>
+
+            <textarea name="message" placeholder="votre message" id="message" cols="30" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
+
+            <h5>Bien à vous,</h5>
+
+            <input type="text" name="name" id="name" placeholder="votre nom">
+
+            <input type="text" name="email" id="email" placeholder="votre adresse email">
+
+            <div class="flex">
+                <input type="checkbox" id="legal" name="legal">
+                <label for="legal">J’ai lu les <a href="../../mentions-legales.html" target="_blank">mentions légales</a> et consens à l’utilisation par Pass’Plume de mes données personnelles</label>
+            </div>
+
+            <input type="submit" name="submit" class="button white radius" id="contact-button" value="Envoyer">
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row container fullscreen">
+
+      <div class="zoom">
+        <a href="#" id="zoomMoins">A</a>
+        <a href="#" id="zoomPlus">A</a>
+        <a href="#" id="reset">normal</a>
+        <a href="#" id="open"><img src="../../img/i-zoom-white.svg" alt=""></a>
+      </div>
+
+      <div class="column large-12">
+
+        <header class="large-12 clearfix" id="prixetmodalite-header">
+
+          <div class="large-12 path">
+            <a href="../index.html" class="inline-link left white page-transition">Récits de vie</a>
+          </div>
+
+          <div class="header-content small-12">
+            <a href="../index.html" class="page-transition"><img src="../../img/logo-white.png" alt="Logo Pass'plume - Biographe familiale et relectrice professionnelle" class="logo"></a>
+            <h2 class="baskerville text-center">Prix et modalités d'une biographie</h2>
+          </div>
+
+          <nav class="informations-nav">
+            <button type="button" class="close-me"></button>
+            <ul class="nav">
+              <li><a href="../../index.html" class="page-transition">Accueil</a></li>
+              <li class="is-active">
+                <a href="../index.html" class="page-transition">Récits de vie</a>
+                <ul class="submenu">
+                  <li><a href="../index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="bienchoisir.html" class="page-transition">Bien choisir son biographe</a></li>
+                  <li class="is-active"><a href="prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../../relecture/index.html" class="page-transition">Relecture</a>
+                <ul class="submenu">
+                  <li><a href="../../relecture/index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="../../relecture/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="contact-transition">Contact</a></li>
+            </ul>
+            <div class="overlay" id="nav-overlay"></div>
+          </nav>
+
+        </header>
+
+        <main class="row">
+
+          <!-- Intro -->
+
+          <div class="row h-large-6 large-8 technical-presentation">
+
+            <div class="content columns large-12 medium-12">
+              <p class="paragraphe">Que coûte une biographie ? Combien de rendez-vous faut-il prévoir ? Comment se déroule un entretien ? Qu’en est-il des droits d’auteur ? Autant de questions qui trouveront une réponse ici.</p>
+              <div class="large-12 text-center column">
+                <a href="#recit-presentation" class="button hollow radius dark down">En savoir plus</a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Présentation -->
+
+
+          <section class="row large-11 h-large-9 medium-12 clearfix" id="recit-presentation">
+
+            <div class="medium-12 columns">
+              <h2 class="baskerville marged">Outre le plaisir de mettre ma plume au service de vos mots, mon objectif est d’offrir une présence</h2>
+            </div>
+            <div class="medium-6 large-4 columns large-push-4">
+              <p class="paragraphe">C’est pour cette raison que les entretiens se déroulent <span class="bold">chez vous</span>, dans vos meubles, à portée de main des objets liés à vos souvenirs. Les déplacements sont gratuits dans un rayon de 20 km à partir du centre de Liège, payants au-delà.  </p>
+            </div>
+            <div class="medium-6 large-4 columns">
+              <p class="paragraphe">En deçà de <span class="bold">quatre séances</span>, les prix sont dégressifs, parce qu’il faut du temps pour qu’émerge entre vous, narrateur, et moi, écrivaine, une relation de confiance. Il y a aussi une autre raison, d’ordre pratique : ce n’est qu’à partir du quatrième rendez-vous qu’il est possible d’envisager l’impression du texte sous la forme d’un livret, éventuellement enrichi de photographies ou d’illustrations.   </p>
+            </div>
+
+          </section>
+
+
+          <!-- Budget -->
+
+          <section class="row large-12" id="budget">
+            <div class="large-11 h-large-9 clearfix">
+              <h2 class="small-title">Budget</h2>
+              <div class="medium-8 column">
+                <h2 class="" id="budget-title">Chaque projet étant unique, le prix peut se révéler extrêmement variable suivant l'ampleur et la difficulté du travail, ainsi que les distances à parcourir.
+              </div>
+              <div class="medium-12 column">
+                <div class="medium-6 large-4 column large-push-2">
+                  <p class="paragraphe white">La création d'une biographie demande un <span class="bold">budget minimal de 600 euros TVAC</span>. Mais du livret d’une quarantaine de pages au livre de deux cents pages, la palette est large...</p>
+                </div>
+                <div class="medium-6 large-4 column large-pull-2">
+                  <p class="paragraphe white"><span class="bold">Rencontrons-nous</span>, et nous pourrons affiner l’estimation en fonction de vos souhaits et des modalités de travail.
+Le premier contact est gratuit hors frais de déplacement s’il débouche sur au moins un rendez-vous payant. Dans le cas contraire, il est facturé 30 euros TVAC hors frais de déplacement.</p>
+                </div>
+              </div>
+            </div>
+
+            <hr class="row large-12">
+
+          </section>
+
+          <section class="row large-12" id="rdv-details-first">
+            <div class="row large-3 large-pull-3">
+              <div class="column large-12">
+                <h2 class="small-title">Rendez-vous</h2>
+              </div>
+              <div class="column large-12">
+                <p class="paragraphe white">La séance d’écoute est suivie d’un temps d’écriture où je travaille seule chez moi. La rencontre suivante débute avec la correction du texte rédigé à partir des souvenirs confiés lors du rendez-vous précédent.<br/>
+                <span class="bold">Le prix fixé par rendez-vous correspond donc à un module incluant :</span></p>
+              </div>
+            </div>
+            <div class="row medium-12 large-6 large-push-3 rdv-wrapper">
+              <ol class="rdv-list column medium-12" id="recit-rdv-list">
+                <li class="rdv-item column medium-12"><p><span class="bold">L’écoute</span> des souvenirs ;</p></li>
+                <li class="rdv-item column medium-12"><p><span class="bold">La rédaction</span> du récit de vie (7 pages en moyenne par heure d’entretien, une page comportant 1500 à 2000 signes espaces inclus) ;</p></li>
+                <li class="rdv-item column medium-12"><p><span class="bold">L’évaluation</span> des pages rédigées ;</p></li>
+                <li class="rdv-item column medium-12"><p><span class="bold">La correction</span> ou l’enrichissement de passages (lieux, dates, noms, insertion de détails) ; </p></li>
+                <li class="rdv-item column medium-12"><p><span class="bold">La saisie informatique </span>;</p></li>
+                <li class="rdv-item column medium-12"><p><span class="bold">La mise en page</span> et l'impression du texte avant chaque rencontre ;</p></li>
+                <li class="rdv-item column medium-12"><p>Au terme du projet, <span class="bold">l’impression du texte complet</span> en maximum trois exemplaires noir & blanc au format A4 ;</p></li>
+                <li class="rdv-item column medium-12"><p><span class="bold">Les frais de déplacement</span> éventuels.</p></li>
+              </ol>
+            </div>
+          </section>
+
+          <section class="row large-12" id="rdv-details-second">
+            <div class="row h-large-6 large-8" id="rdv-explication">
+              <div class="column medium-6">
+                <p class="paragraphe">Chaque rendez-vous est payé au fur et à mesure en liquide, contre reçu, ou par virement bancaire avant la date convenue. Les factures acquittées sont ensuite envoyées par Productions Associées ASBL. </p>
+              </div>
+              <div class="column medium-6">
+                <p class="paragraphe">En plus d’être transparente, cette procédure présente l’avantage d’être très souple : les paiements sont échelonnés, les séances s’espacent comme vous l’entendez et vous disposez à tout moment du droit de les suspendre.</p>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Droits -->
+
+
+          <section class="row large-12" id="droits">
+            <div class="large-11 h-large-9 clearfix">
+              <div class="column large-12">
+                <h2 class="small-title">Droits</h2>
+              </div>
+              <div class="medium-12 large-4 column">
+                <h4 class="">Jusqu’au bout du processus d’écriture, vous gardez la main et pouvez toujours apporter corrections et précisions</h4>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe white">Les pages imprimées offrent des marges élargies pour les annotations et les corrections. <span class="bold">J’écris pour vous, mais aussi et surtout avec vous</span> ! Rien ne sera diffusé sans votre aval.
+Une fois le récit terminé et approuvé, je vous en cède les droits. <span class="bold">Libre</span> à vous d’imprimer – à vos frais – le texte sous forme de livret, avec mon aide ou non. C’est vous et vous seul qui recueillez le bénéfice de la vente, à moins que vous ne préfériez offrir cet ouvrage. Mais vous aurez peut-être envie de le distribuer en dehors du cercle des familiers et des proches.</p>
+              </div>
+              <div class="medium-6 large-4 column">
+                <p class="paragraphe white">S’il est accepté par une maison d’édition, non seulement vous ne devrez pas payer la fabrication du livre, mais en outre vous percevrez un revenu. Les droits d’auteur versés par l’éditeur seront alors partagés, une moitié pour vous, l’autre pour moi. Si vous ne voulez pas que mon nom apparaisse, si vous ne désirez pas partager les éventuels <span class="bold">droits d’auteur</span>, ou si vous préférez vous engager dans l’autoédition, c’est possible. Dans tous les cas, si la diffusion dépasse le cadre des familiers et des proches, nous devrons rédiger et signer ensemble une autre convention.</p>
+              </div>
+            </div>
+          </section>
+
+
+          <!-- Outro -->
+
+
+          <section class="row large-11 h-large-9 medium-12 clearfix" id="prixetmodalite-outro">
+
+            <div class="medium-12 columns">
+              <h2 class="baskerville marged">Ne l’oubliez pas, vous êtes le premier bénéficiaire de la transmission de vos souvenirs</h2>
+            </div>
+            <div class="medium-6 large-4 columns large-push-4">
+              <p class="paragraphe">Leur mise par écrit constitue une trace concrète, tangible de votre existence qui vous permet de rester vivant dans le cœur de vos proches, quoi qu’il arrive, par-delà les générations qui vous succéderont. Par ailleurs, en marge de la grande histoire, rien ne peut remplacer la mémoire sensible et individuelle du passé.</p>
+            </div>
+            <div class="medium-6 large-4 columns">
+              <p class="paragraphe">Celui qui lègue son expérience de vie crée une solidarité entre les générations et assure la transmission de valeurs qui peuvent guider une jeune vie. Il arrive souvent que des membres d’une même famille s’associent pour lancer le projet. <br/>Cadeau « ciment », le récit de vie est alors aussi cadeau « <span class="italic">boomerang</span> » : celui qui l’offre reçoit. Du point de vue de la personne écoutée comme de celle à qui le récit est destiné, le message est le même : « Tu as de la valeur à mes yeux ».</p>
+            </div>
+
+          </section>
+
+
+
+
+
+          <div class="row medium-12">
+            <a href="../../index.html" class="column medium-6 bottom-nav back" id="bottom-nav-recits">
+              <div class="content">
+                <p>Retournez à</p>
+                <h3 class="baskerville">Accueil</h3>
+              </div>
+            </a>
+            <a href="../../relecture/index.html" class="column medium-6 bottom-nav right" id="bottom-nav-relecture">
+              <div class="content">
+                <p>Découvrez</p>
+                <h3 class="baskerville">Relecture</h3>
+              </div>
+            </a>
+          </div>
+
+        </main>
+
+
+
+        <footer>
+          <div class="row large-12">
+            <div class="column medium-12 large-4">
+              <img src="../../img/logo-white.png" alt="" />
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="contact">
+                <li id="list-name">Contact :</li>
+                <li id="tel"><a href="tel:+32499223279">+32 499 22 32 79</a></li>
+                <li id="mail"><a href="mailto:info@passplume.be">info@passplume.be</a></li>
+              </ul>
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="nav">
+                <li><a href="../../index.html">Accueil</a></li>
+                <li><a href="../../recitdevie/index.html">Récits de vie</a></li>
+                <li><a href="../../relecture/index.html">Relecture</a></li>
+                <li><small id="copy">
+                    <a href="../../mentions-legales.html" class="legal">Mentions légales</a><br/>
+                    Copyright2016©Passplume<br/>
+                    Design & Development Alexis Wollseifen
+                  </small></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="social">
+            <li id="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.passplume.be" target="_blank"></a></li>
+            <li id="twitter"><a href="https://twitter.com/home?status=http%3A//www.passplume.be" target="_blank"></a></li>
+          </ul>
+        </footer>
+
+      </div>
+
+    </div>
+
+
+
+
+<script src="../../bower_components/jquery/dist/jquery.js"></script>
+<script src="../../bower_components/what-input/what-input.js"></script>
+<script src="../../bower_components/foundation-sites/dist/foundation.js"></script>
+<script src="../../js/app.js"></script>
+<script src="../../bower_components/foundation-sites/js/foundation.tabs.js"></script>
+<script src="../../bower_components/foundation-sites/js/foundation.core.js"></script>
+<script src="../../bower_components/foundation-sites/js/foundation.util.keyboard.js"></script>
+<script src="../../bower_components/foundation-sites/js/foundation.util.timerAndImageLoader.js"></script>
+
+
+<script>
+
+
+/* VERIFICATION ERREUR PAR JS */
+/* CONTACT PAGE FORM */
+
+$("#contact-button").click(function () {
+  //Le bouton envoyer est actif
+
+  console.log("HelloContact!")
+
+  valid = true;
+
+
+  //Vérifie qu'un nom est entré
+  if ($("#name").val().length < 1) {
+
+    //Si non alors afficher le message d'erreur et rendre le bouton inactif
+    $(".errors-display p.no-name").fadeIn();
+    valid = false;
+    console.log("Pas de nom");
+    $(".no-name").addClass("down-error");
+  } else {
+    $(".errors-display p.no-name").css("display", "none");
+  }
+
+  //Vérifie qu'une adresse est entrée
+  if ($("#email").val().length < 1) {
+
+    //Si non alors afficher le message d'erreur et rendre le bouton inactif
+    $(".errors-display p.no-address").fadeIn();
+    valid = false;
+    console.log("Pas d'adresse");
+    $(".no-address").addClass("down-error");
+  }
+  //Vérifie que l'adresse entrée est valide (expression régulière)
+  else if (!$("#email").val().match(/^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/)) {
+
+    //Si non alors afficher le message d'erreur et rendre le bouton inactif
+    $(".errors-display p.no-address").css("display", "none");
+    $(".errors-display p.no-valid-address").fadeIn();
+    valid = false;
+    console.log("Mauvaise adresse");
+    $(".no-valid-address").addClass("down-error");
+  } else {
+    $(".errors-display p.no-address").css("display", "none");
+    console.log("Bonne adresse");
+  }
+
+  //Vérifie qu'un message est entré
+  if ($("#message").val().length < 1) {
+
+    //Si non alors afficher le message d'erreur et rendre le bouton inactif
+    $(".errors-display p.no-msg").fadeIn();
+    valid = false;
+    console.log("Pas de message");
+    $(".no-msg").addClass("down-error");
+  } else {
+    $(".errors-display p.no-msg").css("display", "none");
+  }
+
+
+  return valid;
+});
+
+
+// Smoot scrollHeight
+
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+
+</script>
+  </body>
+</html>

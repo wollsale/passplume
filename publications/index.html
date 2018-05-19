@@ -1,0 +1,280 @@
+<!doctype html>
+<html class="no-js page-transition-animation" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pass'plume - Accueil</title>
+    <link rel="stylesheet" href="../stylesheets/app.css">
+    <link rel="stylesheet" href="../stylesheets/global.css">
+
+    <script src="https://use.typekit.net/meo1jep.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  </head>
+  <body>
+
+    <!-- <div class="loader-wrapper">
+      <div class="loader-bar"></div>
+    </div> -->
+
+
+    <!-- CONTACT -->
+    <div class="row fullscreen">
+      <div class="columns fullscreen overlay" id="contact-overlay">
+        <div class="columns h-large-4 h-large-push-8 large-6 large-push-6 medium-12 medium-push-0 contact-wrapper">
+          <a href="#" class="close-me contact-close button"></a>
+
+          <!-- ERROR -->
+          <div class="errors-display">
+
+            <p class="no-name">Veuillez entrer votre nom</p>
+
+            <p class="no-address">Vueillez entrer votre adresse email</p>
+
+            <p class="no-valid-address">Votre adresse email n'est pas valide</p>
+
+            <p class="no-msg">Vueillez entrer votre message</p>
+
+          </div>
+          <!-- END ERROR -->
+
+          <form action="../contact.php" method="post" class="columns large-9 contact-form">
+            <h1 class="baskerville">Contact</h1>
+            <h5>À propos</h5>
+
+            <select name="subject" id="subject">
+              <option value="recit">d'un récit de vie</option>
+              <option value="relecture">d'une relecture</option>
+              <option value="renseignement">d'un renseignement</option>
+            </select>
+
+            <hr class="large-12">
+            <h5>Bonjour,</h5>
+
+            <textarea name="message" placeholder="votre message" id="message" cols="30" rows="1" onkeyup="textAreaAdjust(this)" style="overflow:hidden"></textarea>
+
+            <h5>Bien à vous,</h5>
+
+            <input type="text" name="name" id="name" placeholder="votre nom">
+
+            <input type="text" name="email" id="email" placeholder="votre adresse email">
+
+            <div class="flex">
+                <input type="checkbox" id="legal" name="legal">
+                <label for="legal">J’ai lu les <a href="../mentions-legales.html" target="_blank">mentions légales</a> et consens à l’utilisation par Pass’Plume de mes données personnelles</label>
+            </div>
+
+            <input type="submit" name="submit" class="button white radius" id="contact-button" value="Envoyer">
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row container fullscreen">
+
+      <div class="zoom">
+        <a href="#" id="zoomMoins">A</a>
+        <a href="#" id="zoomPlus">A</a>
+        <a href="#" id="reset">normal</a>
+        <a href="#" id="open"><img src="../img/i-zoom-white.svg" alt=""></a>
+      </div>
+
+      <div class="column large-12">
+
+        <header class="large-12 clearfix">
+
+          <div class="header-content large-4">
+            <a href="../index.html" class="page-transition"><img src="../img/logo.png" alt="Logo Pass'plume - Biographe familiale et relectrice professionnelle" class="logo"></a>
+            <h2 class="baskerville text-center">Mes publications</h2>
+          </div>
+
+          <nav>
+            <button type="button" class="close-me"></button>
+            <ul class="nav">
+              <li class=""><a href="index.html" class="page-transition">Accueil</a></li>
+              <li>
+                <a href="../recitdevie/index.html" class="page-transition">Récits de vie</a>
+                <ul class="submenu">
+                  <li class="is-active"><a href="recitdevie/index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="../recitdevie/informations/bienchoisir.html" class="page-transition">Bien choisir son biographe</a></li>
+                  <li><a href="../recitdevie/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="../relecture/index.html" class="page-transition">Relecture</a>
+                <ul class="submenu">
+                  <li><a href="../relecture/index.html" class="page-transition">Présentation</a></li>
+                  <li><a href="../relecture/informations/prixetmodalites.html" class="page-transition">Prix et modalités</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="contact-transition">Contact</a></li>
+            </ul>
+            <div class="overlay" id="nav-overlay"></div>
+          </nav>
+
+        </header>
+
+        <main class="row large-12">
+
+          <section class="large-12" id="publication">
+            <div id="publication-wrapper" class="row large-11 h-large-9 medium-12 clearfix">
+              <ul class="clearfix">
+                <li>
+                  <div class="infos small-12" class="">
+                    <h3 class="publication-title">Jeanne fait son Grand Tour</h3>
+                    <h4 class="publication-title" id="subtitle">Cinque Terre Toscane Rome</h4>
+                  <p class="publication-resume">Jusqu’au XIXe siècle, pour voyager, il fallait être riche et cultivé. Dans le but de parachever leur éducation, les jeunes gens issus de la noblesse ou de la bourgeoisie effectuaient un Grand Tour à destination des plus belles contrées d’Europe. Aujourd’hui, la découverte de l’autre, de son environnement, de sa production artistique autant que de sa gastronomie n’est plus réservée à l’élite.<br/><br/>Jeanne, la cinquantaine alerte, monte seule dans le car de touristes qui doit l’emmener de Liège à Rome, en passant par les Cinque Terre et la Toscane. Elle ne veut pas perdre une miette de ce cadeau qu’elle se fait à elle-même. Mais, ce qu'elle ignore, c'est qu’au-delà des fenêtres grandes ouvertes de la connaissance se profile un horizon pour son cœur.</p>
+                    <a href="http://www.edilivre.com/frontwidget/preview/viewer/id/744226/" target="_blank" class="button publication-resume">Lire un extrait</a>
+                    <div class="small-12" id="purshase">
+                      <a href="http://www.edilivre.com/doc/744226" class="button publication-purshase" id="edilivre">Acheter le livre</a>
+                      <a href="http://livre.fnac.com/a9639417/Anne-Marie-Wollseifen-Jeanne-fait-son-Grand-Tour" class="button publication-purshase" id="fnac">Acheter le livre</a>
+                      <a href="https://www.amazon.fr/Jeanne-Fait-Son-Grand-Tour/dp/2334086029/ref=sr_1_1?ie=UTF8&qid=1464186283&sr=8-1&keywords=Jeanne+fait+son+Grand+Tour" class="button publication-purshase" id="amazon">Acheter le livre</a>
+                    </div>
+                  </div>
+                  <img src="images/cover.jpg" alt="">
+                </li>
+              </ul>
+            </div>
+          </section>
+
+
+          <div class="row medium-12">
+            <a href="recitdevie/index.html" class="column medium-6 bottom-nav right page-transition" id="bottom-nav-recits">
+              <div class="content">
+                <p>Découvrez</p>
+                <h3 class="baskerville">Récits de vie</h3>
+              </div>
+            </a>
+            <a href="relecture/index.html" class="column medium-6 bottom-nav right page-transition" id="bottom-nav-relecture">
+              <div class="content">
+                <p>Découvrez</p>
+                <h3 class="baskerville">Relecture</h3>
+              </div>
+            </a>
+          </div>
+
+        </main>
+
+        <!-- Footer -->
+
+        <footer>
+          <div class="row large-12">
+            <div class="column medium-12 large-4">
+              <img src="../img/logo-white.png" alt="" />
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="contact">
+                <li id="list-name">Contact :</li>
+                <li id="tel"><a href="tel:+32499223279">+32 499 22 32 79</a></li>
+                <li id="mail"><a href="mailto:info@passplume.be">info@passplume.be</a></li>
+              </ul>
+            </div>
+            <div class="column medium-12 large-4">
+              <ul class="footer" id="nav">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../recitdevie/index.html">Récits de vie</a></li>
+                <li><a href="index.html">Relecture</a></li>
+                <li><small id="copy">
+                    <a href="../mentions-legales.html" class="legal">Mentions légales</a><br/>
+                    Copyright2016©Passplume<br/>
+                    Design & Development Alexis Wollseifen
+                  </small></li>
+              </ul>
+            </div>
+          </div>
+          <ul class="social">
+            <li id="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//www.passplume.be" target="_blank"></a></li>
+            <li id="twitter"><a href="https://twitter.com/home?status=http%3A//www.passplume.be" target="_blank"></a></li>
+          </ul>
+        </footer>
+
+        <!-- End Footer -->
+
+
+      </div>
+
+    </div>
+
+
+
+
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/what-input/what-input.js"></script>
+    <script src="../bower_components/foundation-sites/dist/foundation.js"></script>
+    <script src="../js/app.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.tabs.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.core.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.util.keyboard.js"></script>
+    <script src="../bower_components/foundation-sites/js/foundation.util.timerAndImageLoader.js"></script>
+
+    <script>
+
+
+
+    /* VERIFICATION ERREUR PAR JS */
+    /* CONTACT PAGE FORM */
+
+    $("#contact-button").click(function () {
+      //Le bouton envoyer est actif
+
+      console.log("HelloContact!")
+
+      valid = true;
+
+
+      //Vérifie qu'un nom est entré
+      if ($("#name").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-name").fadeIn();
+        valid = false;
+        console.log("Pas de nom");
+        $(".no-name").addClass("down-error");
+      } else {
+        $(".errors-display p.no-name").css("display", "none");
+      }
+
+      //Vérifie qu'une adresse est entrée
+      if ($("#email").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").fadeIn();
+        valid = false;
+        console.log("Pas d'adresse");
+        $(".no-address").addClass("down-error");
+      }
+      //Vérifie que l'adresse entrée est valide (expression régulière)
+      else if (!$("#email").val().match(/^[a-zA-Z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,4}$/)) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-address").css("display", "none");
+        $(".errors-display p.no-valid-address").fadeIn();
+        valid = false;
+        console.log("Mauvaise adresse");
+        $(".no-valid-address").addClass("down-error");
+      } else {
+        $(".errors-display p.no-address").css("display", "none");
+        console.log("Bonne adresse");
+      }
+
+      //Vérifie qu'un message est entré
+      if ($("#message").val().length < 1) {
+
+        //Si non alors afficher le message d'erreur et rendre le bouton inactif
+        $(".errors-display p.no-msg").fadeIn();
+        valid = false;
+        console.log("Pas de message");
+        $(".no-msg").addClass("down-error");
+      } else {
+        $(".errors-display p.no-msg").css("display", "none");
+      }
+
+
+      return valid;
+    });
+
+    </script>
+  </body>
+</html>
