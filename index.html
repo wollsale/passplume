@@ -66,7 +66,7 @@
 
 
 
-          <p class="no-address">Vueillez entrer votre adresse email</p>
+          <p class="no-address">Veuillez entrer votre adresse email</p>
 
 
 
@@ -74,7 +74,10 @@
 
 
 
-          <p class="no-msg">Vueillez entrer votre message</p>
+          <p class="no-msg">Veuillez entrer votre message</p>
+          
+          
+          <p class="no-legal">Veuillez lire et acceptez les mentions légales avant d'envoyer votre message</p>
 
 
 
@@ -675,22 +678,12 @@
       //Le bouton envoyer est actif
 
 
-
-      console.log("HelloContact!")
-
-
-
       valid = true;
-
-
-
 
 
       //Vérifie qu'un nom est entré
 
       if ($("#name").val().length < 1) {
-
-
 
         //Si non alors afficher le message d'erreur et rendre le bouton inactif
 
@@ -779,8 +772,15 @@
       }
 
 
-
-
+      if(document.getElementById('legal').checked) {
+        console.log('is checked');
+        $(".errors-display p.no-legal").css("display", "none");
+      } else {
+        console.log('is not checked');
+        $(".errors-display p.no-legal").fadeIn();
+        valid = false;
+        $(".no-legal").addClass("down-error");
+      }
 
       return valid;
 

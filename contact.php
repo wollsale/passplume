@@ -92,6 +92,8 @@ if(isset($_POST) && count($_POST)>0){
 		// mail('info@passplume.be', $config['sujet'], $message);
 		mail('passplume@yopmail.com', $config['sujet'], $message);
 
+		echo 'mail sent';
+
 		// redirect to thank you page
 		header("Location: ".$config['page_merci']);
 		exit;
